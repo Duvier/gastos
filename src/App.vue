@@ -187,6 +187,7 @@
       items: [
         { icon: 'add_circle', text: 'Ingresos' },
         { icon: 'remove', text: 'Egresos' },
+        { icon: 'trending_up', text: 'Proyecciones' },
         { icon: 'library_books', text: 'Informes' },
         { icon: 'account_circle', text: 'Mi cuenta' },
         { icon: 'settings', text: 'Configuración' }

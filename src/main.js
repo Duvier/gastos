@@ -9,6 +9,9 @@ import VueHead from 'vue-head'
 import App from './App'
 import router from './router'
 
+// Importando Vuefire
+import Vuefire from 'vuefire'
+
 Vue.use(Vuetify)
 Vue.config.productionTip = false
 Vue.use(VueCordova)

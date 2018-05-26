@@ -52,7 +52,7 @@
               </v-list-tile-content>
             </v-list-tile>
           </v-list-group>
-          <v-list-tile v-else :key="item.text" @click="">
+          <v-list-tile v-else :key="item.text" @click="" :to="item.to">
             <v-list-tile-action>
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-tile-action>
@@ -187,6 +187,7 @@
         { icon: 'trending_up', text: 'Proyecciones' },
         { icon: 'library_books', text: 'Informes' },
         { icon: 'account_circle', text: 'Mi cuenta' },
+        { icon: 'group', text: 'Usuarios', to: 'Users' },
         { icon: 'settings', text: 'Configuración' }
       ]
     }),

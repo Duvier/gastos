@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Hello from '@/components/Hello'
-import Users from '@/components/Users'
+import Account from '@/components/Account'
 
 Vue.use(Router)
 
@@ -13,9 +13,9 @@ export default new Router({
       component: Hello
     },
     {
-      path: '/users',
-      name: 'Users',
-      component: Users
+      path: '/account',
+      name: 'Account',
+      component: Account
     }
   ]
 })

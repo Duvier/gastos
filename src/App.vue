@@ -90,7 +90,7 @@
       <v-btn icon large>
         <v-avatar size="32px" tile>
           <img
-            src="https://vuetifyjs.com/static/doc-images/logo.svg"
+            src="https://yt3.ggpht.com/a-/AJLlDp05YBFKwPMD-rqIKWID7Ko3p0lV2M3t2BaU4g=s900-mo-c-c0xffffffff-rj-k-no"
             alt="Vuetify"
           >
         </v-avatar>
@@ -123,7 +123,7 @@
               <v-layout align-center>
                 <v-avatar size="40px" class="mr-3">
                   <img
-                    src="//ssl.gstatic.com/s2/oz/images/sge/grey_silhouette.png"
+                    src="https://yt3.ggpht.com/a-/AJLlDp05YBFKwPMD-rqIKWID7Ko3p0lV2M3t2BaU4g=s900-mo-c-c0xffffffff-rj-k-no"
                     alt=""
                   >
                 </v-avatar>
@@ -182,12 +182,13 @@
       dialog: false,
       drawer: null,
       items: [
+        { icon: 'home', text: 'Inicio' },
         { icon: 'add_circle', text: 'Ingresos' },
         { icon: 'remove', text: 'Egresos' },
+        { icon: 'assignment', text: 'Gastos programados' },
         { icon: 'trending_up', text: 'Proyecciones' },
         { icon: 'library_books', text: 'Informes' },
-        { icon: 'account_circle', text: 'Mi cuenta' },
-        { icon: 'group', text: 'Usuarios', to: 'Users' },
+        { icon: 'account_circle', text: 'Mi cuenta', to: 'Account'},
         { icon: 'settings', text: 'Configuración' }
       ]
     }),

@@ -1,6 +1,6 @@
 # gastos
 
-> Un proyecto para manejar los gastos personames
+> Un proyecto para manejar los gastos personales
 
 ## Build Setup
 

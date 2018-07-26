@@ -182,8 +182,8 @@
       dialog: false,
       drawer: null,
       items: [
-        { icon: 'home', text: 'Inicio' },
         { icon: 'add_circle', text: 'Ingresos', to: 'Transaction'},
+        { icon: 'home', text: 'Inicio', to: 'prueba' },
         { icon: 'remove', text: 'Egresos' },
         { icon: 'assignment', text: 'Gastos programados' },
         { icon: 'trending_up', text: 'Proyecciones' },

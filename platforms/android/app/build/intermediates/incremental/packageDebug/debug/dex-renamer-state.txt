@@ -1,0 +1,4 @@
+#Tue Jul 24 11:19:33 COT 2018
+base.0=C\:\\laragon\\www\\gastos\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\laragon\\www\\gastos\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

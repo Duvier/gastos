@@ -183,7 +183,7 @@
       drawer: null,
       items: [
         { icon: 'home', text: 'Inicio' },
-        { icon: 'add_circle', text: 'Ingresos' },
+        { icon: 'add_circle', text: 'Ingresos', to: 'Transaction'},
         { icon: 'remove', text: 'Egresos' },
         { icon: 'assignment', text: 'Gastos programados' },
         { icon: 'trending_up', text: 'Proyecciones' },
